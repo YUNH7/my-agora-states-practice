@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 function App() {
   const domain = "http://localhost:3001";
   const [discussions, setDiscussions] = useState([]);
+  
 
   useEffect(() => {
     getDiscussion();
