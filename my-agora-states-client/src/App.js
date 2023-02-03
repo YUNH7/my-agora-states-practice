@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 function App() {
   const domain = "http://localhost:3001";
   const [discussions, setDiscussions] = useState([]);
-  
+
 
   useEffect(() => {
     getDiscussion();
@@ -50,7 +50,7 @@ function App() {
 
   return (
     <>
-      <h1>My Agora States!</h1>
+      <h1>My Agora States</h1>
       <Form addDiscussion={addDiscussion}></Form>
       <Discussions
         discussions={discussions}
